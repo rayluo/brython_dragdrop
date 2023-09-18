@@ -1,17 +1,18 @@
-# python-project-template
-A minimalist template to start a new Python project.
+# Brython.Dragdrop
+
+A library for your Brython apps to implement drag-and-drop UX (User Experience),
+without needing to deal with low level drag or drop event callbacks.
 
 
 ## Usage
 
-1. From github web interface,
-   [use this repo as a template](https://github.com/rayluo/python-project-template/generate)
-   to start your new project, then you can clone your project into your local machine.
-2. `git mv my_package your_prj_name`
-   (By the way, if you need inspiration on deciding your project name,
-   read [this](https://www.python.org/dev/peps/pep-0423/#use-a-single-name).)
-3. Modify `setup.cfg` and this `README.md`, possibly also `LICENSE`.
-4. Commit your change. You are now ready to work on YOUR project!
-5. Optionally, rename `your_prj_name/main_module.py` into your preferred module name.
-   If you do so, do not forget to also modify `your_prj_name/__init__.py` accordingly.
+TBD.
+
+
+# Note to future contributors of the newly established `brython` namespace
+
+This library also establishes a `brython` namespace for future Brython packages
+(See also [namespace packages](https://packaging.python.org/en/latest/guides/packaging-namespace-packages/)).
+We chose to use [native namespace](https://packaging.python.org/en/latest/guides/packaging-namespace-packages/#native-namespace-packages).
+So, future contributors to this `brython` namespace please omit the `brython/__init__.py`.
 
