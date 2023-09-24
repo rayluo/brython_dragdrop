@@ -1,6 +1,6 @@
-from brython import dragdrop
+import brython_dragdrop
 
 
 def test_version():
-    assert dragdrop.__version__ == "0.0.0a1"
+    assert brython_dragdrop.__version__ == "0.0.0a2"
 
